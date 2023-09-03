@@ -35,32 +35,25 @@ h1 {
   font-size: 50px;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.7);
-  /* Increase opacity for a whiter background */
   color: #333;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   margin: 3px;
-  /* Smaller gap between cells */
   padding: 0;
-  /* Remove padding to maintain cell size */
 }
 
-
-/* Button Hover Styling */
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
 }
 
-/* Disabled Button Styling */
 .btn:disabled {
   color: black;
   cursor: not-allowed;
 }
 
-/* Result Container Styling */
 .result {
   background-color: rgba(255, 255, 255, 0.7);
   border: 2px solid #fff;
@@ -70,20 +63,16 @@ h1 {
   margin-bottom: 20px;
   padding: 10px;
 }
-
-/* Result Styling */
 .result p {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   font-size: 25px;
 }
 
-/* Reset Styling */
 .reset {
   text-align: center;
 }
 
-/* Reset Button Styling */
 .reset-button {
   border: 0px solid black;
   color: black;
@@ -92,7 +81,6 @@ h1 {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Reset Button Hover Styling */
 .reset-button:hover {
   background-color: black;
   color: white;

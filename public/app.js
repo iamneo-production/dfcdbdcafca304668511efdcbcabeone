@@ -13,8 +13,6 @@ let conditions = [
     [0, 4, 8],
     [2, 4, 6]
 ];
-
-// Function to handle a player's move
 function ticTacToe(btn, index) {
     if (btn.value === '' && !checkWinner()) {
         cells[index] = currentPlayer;
@@ -47,7 +45,6 @@ function updateResult() {
     document.getElementById('current-player').innerText = currentPlayer;
 }
 
-// Function to enable the reset button
 function enableResetButton() {
     document.getElementById('reset').disabled = false;
 }
